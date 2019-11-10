@@ -12,12 +12,13 @@ html {
 }
 body{
 	max-width: 1084px;
+	margin: auto;
 	font-family: 'Poppins', sans-serif;
 	font-family: 'Playfair Display', serif;
 }
 nav	{
 	z-index: 1;
-	margin-left: 118px;
+
 }
 header {
 	margin-top: 30px;
@@ -25,10 +26,7 @@ header {
 	height: 50px;
 
 }
-.Logo {
-	position: relative;
-	left: 20px;
-}
+
 header .list {
 	width: 400px;
 	font-size: 9px;
@@ -38,7 +36,7 @@ header .list {
 	justify-content: space-between;
 	position: relative;
 	bottom: 32px;
-	left: 190px;
+	left: 150px;
 	
 }
 .list a {
@@ -53,6 +51,7 @@ header .list {
 }
 .lines {
 	z-index: -1;
+	position: relative;
 
 }
 .line1 {
@@ -60,8 +59,8 @@ header .list {
 	height: 5251px;
 	border-left: 1px solid #707070;
 	position: absolute;
-	left: 140px;
-	top: 0;
+	left: 0px;
+	top: -90px;
 	opacity: 0.3;
 }
 .line2 {
@@ -69,8 +68,8 @@ header .list {
 	height: 5251px;
 	border-left: 1px solid #707070;
 	position: absolute;
-	left: 420px;
-	top: 0;
+	left: 250px;
+	top: -90px;
 	opacity: 0.3;
 }
 .line3 {
@@ -78,8 +77,8 @@ header .list {
 	height: 5251px;
 	border-left: 1px solid #707070;
 	position: absolute;
-	left: 730px;
-	top: 0;
+	left: 550px;
+	top: -90px;
 	opacity: 0.3;
 }
 .line4 {
@@ -87,8 +86,8 @@ header .list {
 	height: 5251px;
 	border-left: 1px solid #707070;
 	position: absolute;
-	left: 1050px;
-	top: 0;
+	left: 820px;
+	top: -90px;
 	opacity: 0.3;
 }
 .line5 {
@@ -96,22 +95,22 @@ header .list {
 	height: 5251px;
 	border-left: 1px solid #707070;
 	position: absolute;
-	left: 1330px;
-	top: 0;
+	left: 1085px;
+	top: -90px;
 	opacity: 0.3;
 }
 .content-image {
 	position: relative;
-	width: 1016px;
+	width: 900px;
 	top: 30px;
-	left: 308px;
+	left: 185px;
 	z-index: 0;
 
 }
 .content-text {
-position: absolute;
-top: 250px;
-left: 145px;
+position: relative;
+bottom: 380px;
+left: 0px;
 }
 .your {
 	position: relative;
@@ -148,15 +147,15 @@ h1{
  letter-spacing: 8px;
  transform: rotate(-90deg);
  position: relative;
- bottom: 500px;
- left: 1200px;
+ bottom: 800px;
+ left: 930px;
  opacity: 0.4;
 
 }
 .logos{
 	position: relative;
-	bottom: 300px;
-	left: 1380px;
+	bottom: 600px;
+	left: 1108px;
 	width: 20px;
 	height: 120px;
 }
@@ -171,12 +170,12 @@ svg {
 	cursor: pointer;
 	width: 90px;
 	position: relative;
-	top: 120px;
+	top: 90px;
 }
 .Surfing p {
 	position: relative;
-	bottom: 50px;
-	left: 368px;
+	bottom: 360px;
+	left: 180px;
 	font-family: poppins;
 	font-weight: normal;
 	font-size: 24px;
@@ -192,7 +191,7 @@ svg {
 	letter-spacing: 3px;
 	color: #707070;
 	position: relative;
-	left: 652px;
-	bottom: 40px;
+	left: 480px;
+	bottom: 350px;
 	opacity: 0.6;
 }
