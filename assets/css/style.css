@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+html {
+	scroll-behavior: smooth;
+}
+@font-face {
+	font-family: 'spartan';
+	src: url(../fonts/leaguespartan-bold.ttf);
+}
+body{
+
+	max-width: 100%;
+	margin: 0 auto;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Playfair Display', serif;
+}
+nav	{
+	z-index: 1;
+	margin-left: 118px;
+}
+header {
+	margin-top: 30px;
+	width: 780px;
+	height: 50px;
+
+}
+header .list {
+	width: 450px;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	bottom: 32px;
+	margin-left: 235px;
+}
+.list a {
+	font-family: spartan;
+	color: #707070;
+	letter-spacing: 5px;
+	z-index: 1;
+}
+.list a:hover {
+	color: #5DA8EF;
+	transition: 300ms;
+}
+.lines {
+	z-index: -1;
+
+}
+.line1 {
+	width: 1px;
+	height: 5251px;
+	border-left: 1px solid #707070;
+	position: absolute;
+	left: 118px;
+	top: 0;
+	opacity: 0.3;
+}
+.line2 {
+	width: 1px;
+	height: 5251px;
+	border-left: 1px solid #707070;
+	position: absolute;
+	left: 440px;
+	top: 0;
+	opacity: 0.3;
+}
+.line3 {
+	width: 1px;
+	height: 5251px;
+	border-left: 1px solid #707070;
+	position: absolute;
+	left: 790px;
+	top: 0;
+	opacity: 0.3;
+}
+.line4 {
+	width: 1px;
+	height: 5251px;
+	border-left: 1px solid #707070;
+	position: absolute;
+	left: 1110px;
+	top: 0;
+	opacity: 0.3;
+}
+.line5 {
+	width: 1px;
+	height: 5251px;
+	border-left: 1px solid #707070;
+	position: absolute;
+	left: 1400px;
+	top: 0;
+	opacity: 0.3;
+}
+.content-image {
+	position: relative;
+	width: 1240px;
+	bottom: 20px;
+	left: 245px;
+	z-index: 0;
+}
+.content-text {
+position: absolute;
+top: 300px;
+left: 145px;
+}
+.your {
+	color: #5DA8EF;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: normal;
+	font-family: spartan;
+	letter-spacing: 3px;
+}
+h1{
+	font-size: 62px;
+	font-family: Playfair Display;
+	font-weight: normal;
+}
+.text {
+	width: 391px;
+	height: 95px;
+	line-height: 20px;
+	font-family: poppins;
+	font-size: 14px;
+	color: #8F8F8F;
+
+}
+.surfing {
+ width: 370px;
+ color: #A0A1AA;
+ font-family: spartan;
+ font-size: 13px;
+ font-weight: normal;
+ letter-spacing: 8px;
+ transform: rotate(-90deg);
+ position: relative;
+ bottom: 700px;
+ left: 1280px;
+ opacity: 0.4;
+
+}
+.logos{
+	position: relative;
+	bottom: 400px;
+	left: 1460px;
+	width: 20px;
+	height: 120px;
+}
+svg {
+	padding-top: 15px;
+	cursor: pointer;
+}
+.five {
+	letter-spacing: 4px;
+}
+.scroll {
+	cursor: pointer;
+	width: 90px;
+	position: relative;
+	top: 220px;
+}
+.Surfing p {
+	position: relative;
+	bottom: 150px;
+	margin: 0 auto;
+	font-family: poppins;
+	font-weight: normal;
+	font-size: 26px;
+	color: black;
+	text-align: center;
+	width: 724px;
+	line-height: 45px;
+
+}
+.Surfing span{
+	font-family: spartan;
+	font-size: 10px;
+	letter-spacing: 3px;
+	color: #707070;
+	position: relative;
+	left: 600px;
+	bottom: 100px;
+	opacity: 0.6;
+}
