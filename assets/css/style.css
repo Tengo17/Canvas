@@ -143,18 +143,19 @@ h1{
  color: #A0A1AA;
  font-family: spartan;
  font-size: 13px;
+ text-transform: uppercase;
  font-weight: normal;
  letter-spacing: 8px;
  transform: rotate(-90deg);
  position: relative;
- bottom: 800px;
+ bottom: 750px;
  left: 930px;
  opacity: 0.4;
 
 }
 .logos{
 	position: relative;
-	bottom: 600px;
+	bottom: 500px;
 	left: 1108px;
 	width: 20px;
 	height: 120px;
@@ -366,4 +367,49 @@ width: 400px;
 	position: relative;
 	left: 570px;
 	bottom: 1070px;
+}
+.point {
+	position: relative;
+	left: 180px;
+	bottom: 180px;
+}
+.break {
+	font-size: 42px;
+	font-family: Playfair Display;
+	font-weight: bold;
+	padding-left: 25px;
+	position: relative;
+	bottom: 600px;
+	left: 700px;
+}
+.break::first-letter {
+	border-bottom: 2px solid #5DA8EF;
+}
+.breaktext {
+	width: 345px;
+	font-family: poppins;
+	font-size: 14px;
+	color: #707070;
+	line-height: 25px;
+	padding-left: 25px;
+	position: relative;
+	bottom: 580px;
+	left: 700px;
+}
+.readmore3 {
+	font-family: spartan;
+	font-weight: 200;
+	font-size: 9px;
+	height: 20px;
+	width: 92px;
+	display: flex;
+	text-align: center;
+	color: black;
+	letter-spacing: 4px;
+	text-transform: uppercase;  
+	border-bottom: 1.5px solid #5DA8EF; 
+	position: relative;
+	left: 25px;
+	bottom: 550px;
+	left: 730px;
 }
