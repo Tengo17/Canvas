@@ -468,13 +468,14 @@ width: 400px;
 	opacity: 0.5;
 }
 .email	{
-	width: 555px;
+	width: 505px;
 	height: 50px;
 	position: relative;
+	top: 50px;
 	left: 255px;
 	border: none;
 	background-color: #F5F5F5;
-	z-index: -1;
+	z-index: 0;
 }
 .email::placeholder {
 	font-family: spartan;
@@ -488,7 +489,55 @@ width: 400px;
 	content: url(../images/Button.png);
 	position: absolute;
 	left: 508px;
-	top: 65px;
-	z-index: 2;
+	top: 450px;
+	z-index: 1;
 	cursor: pointer;
+}
+.base11 {
+	position: relative;
+	top: 570px;
+	width: 570px;
+	right: 510px;
+	
+}
+.ourcamp {
+	font-family: spartan;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 9px;
+	color: #707070;
+	opacity: 0.2;
+	letter-spacing: 3px;
+	word-spacing: 6px;
+	position: relative;
+	left: 750px;
+	bottom: 250px;
+}
+.adress {
+	width: 490px;
+	font-family: Playfair Display;
+	font-size: 32px;
+	font-weight: 400;
+	position: relative;
+	left: 770px;
+	bottom: 250px;
+}
+.touch {
+	font-family: spartan;
+	font-weight: bold;
+	color: #0B0C11;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	width: 130px;
+	position: relative;
+	left: 750px;
+	bottom: 150px;
+}
+.touch:hover {
+	cursor: pointer;
+	color: #5DA8EF;
+	border-bottom: 1px solid #5DA8EF;
+	transition: 400ms color ease;
 }
