@@ -413,3 +413,23 @@ width: 400px;
 	bottom: 550px;
 	left: 730px;
 }
+.surfcamps1 {
+	font-family: spartan;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #707070;
+	opacity: 0.2;
+	letter-spacing: 3px;
+	word-spacing: 6px;
+	transform: rotate(-90deg);
+	position: relative;
+	right: 390px;
+	bottom: 1320px;
+}
+.break::before {
+	content: url(../images/02.png);
+	position: absolute;
+	top: -120px;
+	z-index: -1
+}
