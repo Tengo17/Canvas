@@ -169,7 +169,7 @@ svg {
 .Surfing p {
 	position: relative;
 	bottom: 150px;
-	margin: 0 auto;
+	left: 412px;
 	font-family: poppins;
 	font-weight: normal;
 	font-size: 26px;
@@ -185,7 +185,7 @@ svg {
 	letter-spacing: 3px;
 	color: #707070;
 	position: relative;
-	left: 715px;
+	left: 717px;
 	bottom: 100px;
 	opacity: 0.6;
 }
