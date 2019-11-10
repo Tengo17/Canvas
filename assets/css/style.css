@@ -1,5 +1,4 @@
 * {
-	margin: 0;
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
@@ -12,9 +11,7 @@ html {
 	src: url(../fonts/leaguespartan-bold.ttf);
 }
 body{
-
-	max-width: 100%;
-	margin: 0 auto;
+	max-width: 1084px;
 	font-family: 'Poppins', sans-serif;
 	font-family: 'Playfair Display', serif;
 }
@@ -28,8 +25,12 @@ header {
 	height: 50px;
 
 }
+.Logo {
+	position: relative;
+	left: 20px;
+}
 header .list {
-	width: 450px;
+	width: 400px;
 	font-size: 9px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -37,7 +38,8 @@ header .list {
 	justify-content: space-between;
 	position: relative;
 	bottom: 32px;
-	margin-left: 235px;
+	left: 190px;
+	
 }
 .list a {
 	font-family: spartan;
@@ -58,7 +60,7 @@ header .list {
 	height: 5251px;
 	border-left: 1px solid #707070;
 	position: absolute;
-	left: 118px;
+	left: 140px;
 	top: 0;
 	opacity: 0.3;
 }
@@ -67,7 +69,7 @@ header .list {
 	height: 5251px;
 	border-left: 1px solid #707070;
 	position: absolute;
-	left: 440px;
+	left: 420px;
 	top: 0;
 	opacity: 0.3;
 }
@@ -76,7 +78,7 @@ header .list {
 	height: 5251px;
 	border-left: 1px solid #707070;
 	position: absolute;
-	left: 790px;
+	left: 730px;
 	top: 0;
 	opacity: 0.3;
 }
@@ -85,7 +87,7 @@ header .list {
 	height: 5251px;
 	border-left: 1px solid #707070;
 	position: absolute;
-	left: 1110px;
+	left: 1050px;
 	top: 0;
 	opacity: 0.3;
 }
@@ -94,23 +96,26 @@ header .list {
 	height: 5251px;
 	border-left: 1px solid #707070;
 	position: absolute;
-	left: 1400px;
+	left: 1330px;
 	top: 0;
 	opacity: 0.3;
 }
 .content-image {
 	position: relative;
-	width: 1240px;
-	bottom: 20px;
-	left: 245px;
+	width: 1016px;
+	top: 30px;
+	left: 308px;
 	z-index: 0;
+
 }
 .content-text {
 position: absolute;
-top: 300px;
+top: 250px;
 left: 145px;
 }
 .your {
+	position: relative;
+	top: 40px;
 	color: #5DA8EF;
 	text-transform: uppercase;
 	font-size: 9px;
@@ -119,11 +124,13 @@ left: 145px;
 	letter-spacing: 3px;
 }
 h1{
-	font-size: 62px;
+	font-size: 55px;
 	font-family: Playfair Display;
 	font-weight: normal;
 }
 .text {
+	position: relative;
+	bottom: 20px;
 	width: 391px;
 	height: 95px;
 	line-height: 20px;
@@ -141,15 +148,15 @@ h1{
  letter-spacing: 8px;
  transform: rotate(-90deg);
  position: relative;
- bottom: 700px;
- left: 1280px;
+ bottom: 500px;
+ left: 1200px;
  opacity: 0.4;
 
 }
 .logos{
 	position: relative;
-	bottom: 400px;
-	left: 1460px;
+	bottom: 300px;
+	left: 1380px;
 	width: 20px;
 	height: 120px;
 }
@@ -164,15 +171,15 @@ svg {
 	cursor: pointer;
 	width: 90px;
 	position: relative;
-	top: 220px;
+	top: 120px;
 }
 .Surfing p {
 	position: relative;
-	bottom: 150px;
-	left: 412px;
+	bottom: 50px;
+	left: 368px;
 	font-family: poppins;
 	font-weight: normal;
-	font-size: 26px;
+	font-size: 24px;
 	color: black;
 	text-align: center;
 	width: 724px;
@@ -185,7 +192,7 @@ svg {
 	letter-spacing: 3px;
 	color: #707070;
 	position: relative;
-	left: 717px;
-	bottom: 100px;
+	left: 652px;
+	bottom: 40px;
 	opacity: 0.6;
 }
