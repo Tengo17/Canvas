@@ -11,6 +11,8 @@ html {
 	src: url(../fonts/leaguespartan-bold.ttf);
 }
 body{
+	overflow-x: hidden;
+	max-height: 5040px;
 	max-width: 1084px;
 	margin: auto;
 	font-family: 'Poppins', sans-serif;
@@ -56,7 +58,7 @@ header .list {
 }
 .line1 {
 	width: 1px;
-	height: 5251px;
+	height: 5100px;
 	border-left: 1px solid #707070;
 	position: absolute;
 	left: 0px;
@@ -65,7 +67,7 @@ header .list {
 }
 .line2 {
 	width: 1px;
-	height: 5251px;
+	height: 5100px;
 	border-left: 1px solid #707070;
 	position: absolute;
 	left: 250px;
@@ -74,7 +76,7 @@ header .list {
 }
 .line3 {
 	width: 1px;
-	height: 5251px;
+	height: 5100px;
 	border-left: 1px solid #707070;
 	position: absolute;
 	left: 550px;
@@ -83,7 +85,7 @@ header .list {
 }
 .line4 {
 	width: 1px;
-	height: 5251px;
+	height: 5100px;
 	border-left: 1px solid #707070;
 	position: absolute;
 	left: 820px;
@@ -92,7 +94,7 @@ header .list {
 }
 .line5 {
 	width: 1px;
-	height: 5251px;
+	height: 5100px;
 	border-left: 1px solid #707070;
 	position: absolute;
 	left: 1085px;
@@ -471,7 +473,7 @@ width: 400px;
 	width: 505px;
 	height: 50px;
 	position: relative;
-	top: 50px;
+	bottom: 200px;
 	left: 255px;
 	border: none;
 	background-color: #F5F5F5;
@@ -489,13 +491,13 @@ width: 400px;
 	content: url(../images/Button.png);
 	position: absolute;
 	left: 508px;
-	top: 462px;
+	top: 211px;
 	z-index: 1;
 	cursor: pointer;
 }
 .base11 {
 	position: relative;
-	top: 570px;
+	top: 360px;
 	width: 570px;
 	right: 510px;
 	
@@ -511,7 +513,7 @@ width: 400px;
 	word-spacing: 6px;
 	position: relative;
 	left: 620px;
-	top: 230px;
+	top: 0px;
 }
 .adress {
 	width: 490px;
@@ -520,7 +522,8 @@ width: 400px;
 	font-weight: 400;
 	position: relative;
 	left: 650px;
-	top: 250px;
+	top: 30px;
+
 }
 .touch {
 	font-family: spartan;
@@ -534,7 +537,7 @@ width: 400px;
 	height: 18px;
 	position: relative;
 	left: 620px;
-	top: 310px;
+	top: 80px;
 }
 .touch:hover {
 	cursor: pointer;
@@ -544,6 +547,8 @@ width: 400px;
 }
 footer {
 	height: 225px;
+	position: relative;
+	bottom: 150px;
 }
 .footerlogo {
 	position: relative;
