@@ -489,7 +489,7 @@ width: 400px;
 	content: url(../images/Button.png);
 	position: absolute;
 	left: 508px;
-	top: 450px;
+	top: 462px;
 	z-index: 1;
 	cursor: pointer;
 }
@@ -510,8 +510,8 @@ width: 400px;
 	letter-spacing: 3px;
 	word-spacing: 6px;
 	position: relative;
-	left: 750px;
-	bottom: 250px;
+	left: 620px;
+	top: 230px;
 }
 .adress {
 	width: 490px;
@@ -519,8 +519,8 @@ width: 400px;
 	font-size: 32px;
 	font-weight: 400;
 	position: relative;
-	left: 770px;
-	bottom: 250px;
+	left: 650px;
+	top: 250px;
 }
 .touch {
 	font-family: spartan;
@@ -531,13 +531,53 @@ width: 400px;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	width: 130px;
+	height: 18px;
 	position: relative;
-	left: 750px;
-	bottom: 150px;
+	left: 620px;
+	top: 310px;
 }
 .touch:hover {
 	cursor: pointer;
 	color: #5DA8EF;
-	border-bottom: 1px solid #5DA8EF;
+	border-bottom: 2px solid #5DA8EF;
 	transition: 400ms color ease;
+}
+footer {
+	height: 225px;
+}
+.footerlogo {
+	position: relative;
+	left: 50%;
+	top: 20px;
+}
+.footerlist {
+	width: 400px;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	left: 350px;
+	top: 45px;
+}
+.footerlist a {
+	font-family: spartan;
+	color: #707070;
+	letter-spacing: 5px;
+	z-index: 1;
+}
+.footerlist a:hover {
+	color: #5DA8EF;
+	transition: 300ms;
+}
+.footerlogos {
+	width: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	left: 495px;
+	top: 50px;
+
 }
