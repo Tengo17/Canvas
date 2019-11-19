@@ -46,7 +46,6 @@ header .list {
 	color: #707070;
 	letter-spacing: 5px;
 	z-index: 1;
-
 }
 .list a:hover {
 	color: #5DA8EF;
@@ -59,7 +58,7 @@ header .list {
 	border: none;
 	color: #5DA8EF;
 	position: relative;
-	top: 6px;
+	top: 5px;
 	font-family: spartan;
 	font-size: 10px;
 
@@ -90,7 +89,7 @@ header .list {
 	bottom: 0px;
 }
 
-.dashfive {
+.dash {
 	font-size: 10px;
 	position: relative;
 	display: flex;
