@@ -12,7 +12,7 @@ html {
 }
 body{
 	overflow-x: hidden;
-	max-height: 5040px;
+	max-height: 4900px;
 	max-width: 1084px;
 	margin: auto;
 	font-family: 'Poppins', sans-serif;
@@ -51,6 +51,19 @@ header .list {
 .list a:hover {
 	color: #5DA8EF;
 	transition: 300ms;
+}
+#slider {
+	position: relative;
+	height: 527px;
+}
+.sp {
+ 	position: absolute;
+	width: 900px;
+	height: 507px;
+	z-index: -1;
+	margin-top: 20px;
+	margin-left: 185px;
+
 }
 
 #qty {
@@ -150,17 +163,18 @@ header .list {
 	top: -90px;
 	opacity: 0.1;
 }
-.content-image {
+/*.content-image {
 	position: relative;
 	width: 900px;
 	top: 30px;
 	left: 185px;
 	z-index: 0;
 
-}
+}*/
+
 .content-text {
 position: relative;
-bottom: 380px;
+bottom: 410px;
 left: 0px;
 }
 .your {

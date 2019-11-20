@@ -1,19 +1,24 @@
 <?php get_header(); ?>
-	<div class="lines">
+		<div class="lines">
 	<div class="line1"></div>
 	<div class="line2"></div>
 	<div class="line3"></div>
 	<div class="line4"></div>
 	<div class="line5"></div>
 	</div>
-
-	<img class="content-image" src="http://localhost/wordpress/wp-content/themes/canvas/assets/images/Clip0.png">
+	<div id="slider-wrapper">
+        <div id="slider">
+        	<img class="sp" src="assets/images/Clip0.png">
+            <img class="sp" src="assets/images/base.png">
+            <img class="sp" src="assets/images/base11.png">
+            <img class="sp" src="assets/images/Clip1.png">
+            <img class="sp" src="assets/images/Clip.png">  
+        </div>
 	<section class="content-text">
 		<p class="your"> your</p>
 		<h1>Beautiful Escape</h1>
 		<p class="text">One of the greatest things about the sport of surfing is that you need only three things: your body, 
 		a surfboard, and a wave.</p>
-	
 		<div id="field1">
 		<span id="minus" class="sub">&#x276E;</span>
     <input class="number" name="qty" value="1" id="qty" />
@@ -41,11 +46,11 @@ on this planet, a taste of heaven.</p>
 <div class="blueline"></div>
 </div>
 <div class="imgcontent">
-	<img src="http://localhost/wordpress/wp-content/themes/canvas/assets/images/Clip1.png">
+	<img src="assets/images/Clip1.png">
 	<p class="better">By better understanding the various aspects of surfing, you will improve faster and have more fun in the water.</p>
 	<p class="readmore"> read more</p>
-	<img class="surfer" src="http://localhost/wordpress/wp-content/themes/canvas/assets/images/Clip.png">
-	<img class="playbutton" src="http://localhost/wordpress/wp-content/themes/canvas/assets/images/Play Button.png">
+	<img class="surfer" src="assets/images/Clip.png">
+	<img class="playbutton" src="assets/images/Play Button.png">
 </div>
 <div class="surfboards">
 	<section class="hero-boards">
@@ -53,23 +58,23 @@ on this planet, a taste of heaven.</p>
 		<h2>Surfboards</h2>
 		<ul class="bboards">
 			<li class="first-board">
-				<img class="firstb" src="http://localhost/wordpress/wp-content/themes/canvas/assets/images/item1.png">
-				<img class="secondb" src="http://localhost/wordpress/wp-content/themes/canvas/assets/images/item2.png">
-				<img class="thirdb" src="http://localhost/wordpress/wp-content/themes/canvas/assets/images/item3.png">
+				<img class="firstb" src="assets/images/item1.png">
+				<img class="secondb" src="assets/images/item2.png">
+				<img class="thirdb" src="assets/images/item3.png">
 			</li>
 		</ul>
 		<p class="showall">Show all</p>
 	</section>
 </div>
 <div class="surftraining">
-	<img class="imgbase" src="http://localhost/wordpress/wp-content/themes/canvas/assets/images/base.png">
+	<img class="imgbase" src="assets/images/base.png">
 	<h1 class="straining">Surf Training</h1>
 	<p class="training-text">By better understanding the various aspects of surfing, By better understanding the various aspects of surfing, you will improve faster and have more fun in the water.</p>
 	<p class="readmore2"> read more</p>
 	<p class="surfcamps">surf camps</p>
 </div>
 <div class="pointbreak">
-	<img class="point" src="http://localhost/wordpress/wp-content/themes/canvas/assets/images/Clip12.png">
+	<img class="point" src="assets/images/Clip12.png">
 	<h1 class="break">Point Break</h1>
 	<p class="breaktext">By better understanding the various aspects of By better understanding the various aspects of surfing, By better understanding the various aspects of surfing, you will improve faster and have more fun in the water.</p>
 	<p class="readmore3"> read more</p>
@@ -81,7 +86,7 @@ on this planet, a taste of heaven.</p>
 	<p class="jointext">By better understanding the various aspects of surfing, you will improve faster 
 and have more fun in the water.</p>
 <input class="email" type="email" name="email" placeholder="YOUR E-MAIL">
-<img class="base11" src="http://localhost/wordpress/wp-content/themes/canvas/assets/images/base11.png">
+<img class="base11" src="assets/images/base11.png">
 <p class="ourcamp"> our camp</p>
 <h2 class="adress">CA 91932, USA<br>
 Imperial Beach<br>
